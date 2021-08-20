@@ -52,7 +52,7 @@ function SideNav(props) {
         </div>
     )
 }
-
+ 
 function SmallNav() {
 
     return (
