@@ -5,7 +5,6 @@ import {json, checkStatus } from './utils.js'
 
 import Chart from './CurrencyChart.js'
 import ChanceDestination from './ChanceDestination.js'
-import Portfolio from './Portfolio.js'
 import Layout from './Layout.js'
 import Graph from './Graph.js'
 import Converter from './Converter.js'
@@ -219,7 +218,6 @@ class Dashboard extends React.Component {
 
     return (
       <>
-        <Route path="/portfolio" component={Portfolio} />
         <Route exact path="/" render={() => 
             <Layout baseValue={this.state.conversion.baseValue} convertToValue={this.state.conversion.convertToValue} rate={this.state.rates.goingRate}
                 converter={<Converter 

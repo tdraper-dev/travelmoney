@@ -239,6 +239,14 @@ button:focus {
   font-size: 25px;
 }
 
+.navLinkSpecial {
+  font-size: 15px;
+}
+.navLinkSpecial:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -267,6 +275,9 @@ button:focus {
 .specialLinks a {
   color: rgb(123, 160, 96);
   font-size: 2rem;
+}
+.specialLinks a:hover {
+  text-decoration: underline;
 }
 @media(max-width: 1199px) {
   .specialLinks {

@@ -31,7 +31,7 @@ function SideNav(props) {
                         <a className="navLink" href="#destinationsTag">Chance Destinations</a>
                     </div>
                     <div className="linkCol">
-                        <Link className="navLink" to="/portfolio">Portfolio</Link>
+                    <a  className="navLink navLinkSpecial" rel="noreferrer" href="https://tdraper-dev.github.io/tdraper.dev/" target="_blank">Made by Travis Draper</a>
                     </div>
                     <div className="socialMediaFooter d-flex">
                             <a href="#twitter" className="mx-2">
@@ -64,7 +64,7 @@ function SmallNav() {
                         <Nav.Link href="#chartTag">Conversion Chart</Nav.Link>
                         <Nav.Link href="#graphTag">Conversion Graph</Nav.Link>
                         <Nav.Link href="#destinationsTag">Chance Destinations</Nav.Link>
-                        <Link id="portfolioLink" to="/portfolio">Portfolio</Link>
+                        <Nav.Link  href="https://tdraper-dev.github.io/tdraper.dev/" target="_blank">Made by Travis Draper</Nav.Link >
                         <div className="socialMediaFooter d-flex">
                             <a href="#twitter" className="mx-2">
                                 <MDBIcon fab icon="twitter" className="footerIcon"  />

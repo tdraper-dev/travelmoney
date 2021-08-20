@@ -23,7 +23,7 @@ export default class Layout extends React.Component {
         return (
             <div className="container">
                 <div className="specialLinks">
-                    <Link to="/portfolio">Portfolio</Link>
+                    <a rel="noreferrer" href="https://tdraper-dev.github.io/tdraper.dev/" target="_blank">Made by Travis Draper</a>
                 </div>
                 <a id="topTag"></a>
                 <div id="blackOverlay"></div>
