@@ -1,21 +1,23 @@
-# TravelMoney
+<h1 stlye="font-size: 40px">TravelMoney</h1>
+
+# Description
 
 TravelMoney is a simple, easy-to-use currency converting widget. The app integrates currency data information from the <a href="https://www.frankfurter.app/" target="_blank" rel="noreferrer" title="Link to Frankfurter Currency API">Frankfurter Currency API</a> and cross-references listed countries with Wiki information pertaining to that country in "Chance Destinations". The app was built using create-react-app.
 
 # Installation
 
-To install this app locally, in your command line navigate to the appropriate directory and run git clone:
-<code><pre>$ git clone https://github.com/tdraper-dev/travelmoney.git</pre></code>
+To install this app locally, in your command line navigate to the appropriate directory and run git clone
+<pre><code>$ git clone https://github.com/tdraper-dev/travelmoney.git</code></pre>
 
-Navigate to the root directory of the app:
-<code><pre>$ cd travelmoney</pre></code>
+Navigate to the root directory of the app
+<pre><code>$ cd travelmoney</code></pre>
 
-Run yarn to install necessary project dependencies:
-<code><pre>$ yarn</pre></code>
+Run yarn to install necessary project dependencies
+<pre><code>$ yarn</code></pre>
 
 # Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run
 
 ### `yarn start`
 
