@@ -120,16 +120,10 @@ export function Footer(props) {
 
     return (
         <div id="socialMediaFooter" className={location}>
-            <a href="#twitter" className="mx-2">
-                <MDBIcon fab icon="twitter" className="footerIcon"  />
+            <a href="#instagram" target="_blank" rel="noreferrer" title="Link to Travis Draper LinkedIn page" className="mx-2">
+                <MDBIcon fab icon="linkedin" className="footerIcon" />
             </a>
-            <a href="#facebook" className="mx-2">
-                <MDBIcon fab icon="facebook" className="footerIcon"  />
-            </a>
-            <a href="#instagram" className="mx-2">
-                <MDBIcon fab icon="instagram" className="footerIcon" />
-            </a>
-            <a href="#github" className="mx-2">
+            <a href="https://github.com/tdraper-dev" target="_blank" rel="noreferrer" title="Link to Travis Draper Github Page" className="mx-2">
             <MDBIcon fab icon="github"  className="footerIcon"  />
             </a>
             
