@@ -1,8 +1,19 @@
-# Getting Started with Create React App
+# TravelMoney
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TravelMoney is a simple, easy-to-use currency converting widget. The app integrates currency data information from the <a href="https://www.frankfurter.app/" target="_blank" rel="noreferrer" title="Link to Frankfurter Currency API">Frankfurter Currency API</a> and cross-references listed countries with Wiki information pertaining to that country in "Chance Destinations". The app was built using create-react-app.
 
-## Available Scripts
+# Installation
+
+To install this app locally, in your command line navigate to the appropriate directory and run git clone:
+<code><pre>$ git clone https://github.com/tdraper-dev/travelmoney.git</pre></code>
+
+Navigate to the root directory of the app:
+<code><pre>$ cd travelmoney</pre></code>
+
+Run yarn to install necessary project dependencies:
+<code><pre>$ yarn</pre></code>
+
+# Available Scripts
 
 In the project directory, you can run:
 
